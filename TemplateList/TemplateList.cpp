@@ -1,4 +1,5 @@
 #include "includes.h"
+using namespace std;
 
 int main()
 {
@@ -6,7 +7,7 @@ int main()
     string str2 = ", ";
     string str3 = "World";
     string str4 = "!";
-    List<string> obj(str2);
+    MyList::List<string> obj(str2);
     obj.Show();
     obj.AddToTail(str3);
     obj.Show();
